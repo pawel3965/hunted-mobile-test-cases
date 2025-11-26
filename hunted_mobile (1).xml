@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S7</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		<section>
+		<name>IAM</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Sign Up</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C437</id>
+				<title>User can register via email on mobile app</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>1. Open mobile app 
+2. Tap Sign up</steps>
+											<expected>User is able to register via email</expected>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C438</id>
+				<title>User sees error when entering invalid email</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>1. Open moblie app
+2. Click SIgn Up</steps>
+											<expected>User sees error when enter invalid email format</expected>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C439</id>
+				<title>User sees error when entering invalid  password</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>1. Open mobile app
+2. Click Sign Up</steps>
+											<expected>User sees error when enter invalid password format</expected>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C440</id>
+				<title>User can select role during registration</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>1. Open the mobile app
+2. Click Sign Up</steps>
+											<expected>User is able to choose role during registration process </expected>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C441</id>
+				<title>User should sees error when value in field &apos;Repeat password&apos; is diffrent than in field &apos;password</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>1. Open mobile app
+2. Click Sign Up
+3. Fill field &apos;Password&apos;
+4. Fill field &apos;Repeat passwrd&apos; with diffrent value </steps>
+											<expected>User sees error when value in field &apos;Repeat password&apos; is diffrent than in field &apos;password</expected>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C442</id>
+				<title>User should be able to register via Google account</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>1. Go on site
+2. Click SIgn Up
+3. Click SIgn in via Google </steps>
+											<expected>User is able to register via Google account </expected>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C443</id>
+				<title>User should be able to register via LinkedIn</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>1. Open moblie app
+2. Click SIgn Up
+3. Clck to register via LinkedIn </steps>
+											<expected>User is able to register via LinkedIn account </expected>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C444</id>
+				<title>User should be able to register via GitHub account</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>1. Open mobile app
+2. Click Sign Up
+3. Click to register via GitHub account 
+
+</steps>
+											<expected>User is able to register via GitHub account </expected>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C445</id>
+				<title>User should be able to register after fill required fields with valid value and clicking &apos;Create Account&apos; button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>1. Open mobile app
+2. Click Sign Up
+3. Fill all required field
+4. Click &apos;Create Account&apos; button </steps>
+											<expected>A new account is created by the user clicking the &quot;Create Account&quot; button</expected>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>Sign In</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C446</id>
+				<title>The Sign In page should have the “Sign up” link which redirects to the “Sign up” page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>1. Open mobile app
+</steps>
+											<expected>User sees an &apos;Sign Up&apos; link which redirected user to Sign up page</expected>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C447</id>
+				<title>The Sign In page should have the “Forgot the password” link which redirects to the “Forgot password” page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>1. Open mobile app
+
+</steps>
+											<expected>User sees &apos;Forgot the password&apos; link which redirects to the &apos;Forgot password&apos; page</expected>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C448</id>
+				<title>User should be able to log in by entering  valid email and password</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>User already has an account with a registered email and password</preconds>
+											<steps>1. Open mobile app
+2. Enter valid Email and password 
+3. Click &apos;Sign In&apos; button</steps>
+											<expected>User is able to logi in by entering valid data </expected>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C449</id>
+				<title>User should see error message appears when using invalid credentials</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>1. Open mobile app
+2. Enter invalid credentials </steps>
+											<expected>User sees error when use invalid credentials </expected>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C450</id>
+				<title>Password input is masked</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>1. Open moblie app
+2. Enter value in password field </steps>
+											<expected>Value in password field is masked </expected>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>Profile Settings</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C451</id>
+				<title>User should can create recruiter or candidate profile after registration</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>User has completed the registration process</preconds>
+											<steps>1. Open mobile app
+2. Log in 
+3. Navigate to profile settings</steps>
+											<expected>User can create recruiter or candidate profile after registration</expected>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C452</id>
+				<title>User should can switch between recruiter and candidate profiles</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>User has both recruiter and candidate profiles created</preconds>
+											<steps>1. Open mobile app
+2. Log in 
+3. Navigate to profile settings</steps>
+											<expected>User can switch between recruiter and candidate profiles</expected>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C453</id>
+				<title>User should can edit profile information</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>User is logged in and has an existing profile</preconds>
+											<steps>1. Open mobile app
+2. Log in 
+3. Navigate to profile settings</steps>
+											<expected>User can edit profile information</expected>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>Chat features</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C454</id>
+				<title>Recruiter should can starts chat with candidate from candidates list</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>User have an account register as a recruiter </preconds>
+											<steps>1. Open mobile app
+2. Log in 
+3. Navigate to candidate list 
+
+</steps>
+											<expected>Recruiter is able to stars chats with candidate from candidate list </expected>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C455</id>
+				<title>Recruiter should can starts chat with candidate from candidate profile</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>User have an account register as a recruiter </preconds>
+											<steps>1. Open mobile app
+2. Log in 
+3. Go to candidate profile page </steps>
+											<expected>Recruiter is able to start chat with candidate from candidate profile page </expected>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C456</id>
+				<title>Recruiter should  cannot see candidate contacts before chat starts</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>User is logged in as recruiter</preconds>
+											<steps>1. Open mobile app
+2. Log in 
+3. Navigate to candidate profile  </steps>
+											<expected>Recruiter cannot see candidate contacts before chat starts</expected>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C457</id>
+				<title>Candidate should can open contact details after chat request</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>User is logged as a candidate 
+Recruiter started chat with candidate
+</preconds>
+											<steps>1. Open mobile app
+2. Log in 
+3. Go to chats 
+ </steps>
+											<expected>Candidate is able open contact details after chat request</expected>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C458</id>
+				<title>Candidate schould can declines recruiter’s chat request</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>User logged in as a candidate 
+Recruiter started chat with candidate
+</preconds>
+											<steps>1. Open mobile app
+2. Log in 
+3. Open chats </steps>
+											<expected>Candidate is able to declines recruiter’s chat request</expected>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C459</id>
+				<title>Recruiter should can sends offer to candidate</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>User logged in as a recruiter 
+Chat between recruiter and candidate is active
+</preconds>
+											<steps>1. Open mobile app
+2. Log in
+3. Navigate to chats
+4. Open chat with a candidate</steps>
+											<expected>Recruiter is able to sends offer to candidate</expected>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C460</id>
+				<title>Recruiter should can marks chat as rejected</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>User logged in as a recruiter 
+Chat between recruiter and candidate is active
+</preconds>
+											<steps>1. Open mobile app
+2. Log in 
+3. Open chats </steps>
+											<expected>Recruiter is able to marks chat as rejected</expected>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C461</id>
+				<title>User should be able to archives chat</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>User has at least one active chat</preconds>
+											<steps>1. Open mobile app
+2. Log in 
+3. Navigate to chats </steps>
+											<expected>User is able to archive chat</expected>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C462</id>
+				<title>User should be able to  marks chat as favourite</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>User has at least one active chat</preconds>
+											<steps>1. Open mobile app
+2. Log in 
+3. Navigate to chats </steps>
+											<expected>User is able to mark chat as a favourite </expected>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+</suite>
